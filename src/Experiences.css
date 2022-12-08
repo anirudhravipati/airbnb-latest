@@ -1,0 +1,63 @@
+  /*color for debug*/
+* {
+  padding: 0;
+  margin: 0;
+  /* border : 1px dotted blueviolet; */
+}
+
+
+.Experiences {
+  padding: 1rem 1.5rem;
+  
+  margin-top: 2rem;
+  display: flex;
+}
+
+.experience-card {
+  width: 175px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+}
+
+.img-host-card {
+  width: 100%;
+  border-radius: 9px;
+}
+
+.rating-and-country {
+  display: flex;
+  gap: 3px;
+  align-items: center;
+  padding: 4px 0;
+}
+
+.rating-star {
+  height: 14px;
+}
+
+.primary-text {
+  font-family: 'Poppins',sans-serif;
+  font-size: 12pt;
+}
+
+.secondary-text {
+  font-family: 'Poppins',sans-serif;
+  font-size: 12pt;
+  color: grey;
+}
+
+
+.experience-cost {
+  display: flex;
+  gap: 3px;
+  align-items: center;
+  padding: 4px 0;
+}
+
+.emphasis-text {
+  font-family: 'Poppins',sans-serif;
+  font-weight: 600;
+  font-size: 12pt;
+}

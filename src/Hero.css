@@ -1,0 +1,33 @@
+  /*color for debug*/
+/* * {
+  border : 1px dotted blueviolet;
+} */
+
+.Hero {
+  padding: 0;
+  margin:0;
+}
+
+.hero-image-section {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 1rem;
+  align-items: center;
+}
+
+.hero-copy {
+  padding: 0rem 1.5rem;
+  margin:0;
+}
+
+h1 {
+  font-family: 'Poppins',sans-serif;
+  font-weight: 600;
+}
+
+
+h2 {
+  font-family: 'Poppins',sans-serif;
+  font-weight: 300;
+  width: 30%;
+}
